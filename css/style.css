@@ -8,6 +8,32 @@
 }
 
 
-.container{
+/* .container{
         color: var(--background-color);
+} */
+
+
+
+
+/* Fresh, New Ideas & Bold Moves Section */
+.new-ideas{padding-bottom: 90px;
+    background-color: var(--background-color);
+    color: var(--white);
+ }
+    
+ .main-heading{
+    font-size: calc(1.2rem + 2.5vw);
+    font-weight: 700;
+    color: var(--white);
 }
+.sub-heading{
+    font-size: calc(.8rem + 1vw);
+    font-weight: 500;
+    color: var(--white);
+}
+
+.box-background{
+    background-color: var(--green-dark);
+}
+
+
