@@ -1,0 +1,13 @@
+:root{
+    --background-color:#1a3641;
+    --green-dark:#46a788;
+    --green-light:#72caa5;
+    --white:#fff;
+    --secondary-text:#cdcdcd;
+    --black:#000;
+}
+
+
+.container{
+        color: var(--background-color);
+}
