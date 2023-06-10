@@ -16,6 +16,7 @@
 
 
 /* Fresh, New Ideas & Bold Moves Section */
+
 /* .new-ideas{padding-bottom: 90px;
     background-color: var(--background-color);
     color: var(--white);
@@ -40,7 +41,7 @@
 
 
 
-
+/* 
 * {
     margin: 0;
     padding: 0;
@@ -147,4 +148,55 @@ textarea {
     background-color: var(--green-dark) !important;
     color: var(--white) !important;
     
+} */
+
+
+
+/* Service css */
+
+.service-section{
+    background-color: var(--background-color);
+    color: var(--white);
+    padding-bottom: 30px;
 }
+
+.box-1{
+    height: 200px;
+    width: 350px;
+    background-color: var(--green-dark);
+    color: var(--white);
+    
+}
+
+.box1::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: hsl(0%, 0%, 5%);
+    border: 2px solid white;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+.Get-in-touch-btn{
+    height: 40px;
+    width: 170px;
+   border:solid var(--white) 1px;
+   background-color: var(--background-color);
+   color: var(--white);
+  
+    
+}
+
+
+
+.Get-in-touch-btn:hover{background-color: var(--green-light);
+color: var(--black);
+border: none;}
