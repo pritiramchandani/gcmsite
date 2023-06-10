@@ -105,7 +105,7 @@
 .contact-form {
     background-color: var(--white);
     border: solid var(--green-dark);
-    padding:auto;
+    padding:20px ;
     overflow: hidden;
 }
 
