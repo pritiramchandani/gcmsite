@@ -1,10 +1,10 @@
-:root{
-    --background-color:#1a3641;
-    --green-dark:#46a788;
-    --green-light:#72caa5;
-    --white:#fff;
-    --secondary-text:#cdcdcd;
-    --black:#000;
+:root {
+    --background-color: #1a3641;
+    --green-dark: #46a788;
+    --green-light: #72caa5;
+    --white: #fff;
+    --secondary-text: #cdcdcd;
+    --black: #000;
 }
 
 
@@ -16,7 +16,7 @@
 
 
 /* Fresh, New Ideas & Bold Moves Section */
-.new-ideas{padding-bottom: 90px;
+/* .new-ideas{padding-bottom: 90px;
     background-color: var(--background-color);
     color: var(--white);
  }
@@ -34,6 +34,118 @@
 
 .box-background{
     background-color: var(--green-dark);
+} */
+
+/* Contact Us page */
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
+.contact-us-background {
+    background-color: var(--background-color);
+    overflow: hidden;
+}
+
+
+
+.contact-section {
+    background-color: var(--background-color);
+    color: var(--white);
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.contact .content {
+
+    text-align: center;
+    
+}
+
+.heading {
+    font-size: calc(1.2rem + 2.5vw);
+    font-weight: 700;
+    color: var(--white);
+    text-align: center;
+}
+
+.sub-heading {
+    font-size: calc(.8rem + 1vw);
+    font-weight: 500;
+    color: var(--white);
+    text-align: center;
+}
+
+.contact .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.contact .box .icon {
+
+    padding: 8px 15px;
+    display: flex;
+}
+
+
+.box .text h3 {
+    color: var(--green-dark);
+}
+
+.contact-form {
+    background-color: var(--white);
+    border: solid var(--green-dark);
+    padding:auto;
+    width: 20%;
+    overflow: hidden;
+}
+
+.send-message {
+    font-size: 30px;
+    color: var(--black);
+}
+
+.input-div {
+    padding-bottom: 20px;
+    width: 100%;
+    margin-top: 9px;
+
+}
+
+.input-div input,
+textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid var(--secondary-text);
+    outline: none;
+}
+
+
+.form-btn {
+    background-color: var(--white) ;
+    color: var(--black) ;
+    height: 50px;
+    width: 170px;
+    border: none;
+    border: solid 1px;
+
+}
+
+.form-btn:hover {
+    background-color: var(--background-color) !important;
+    color: var(--white) !important;
+    
+}
