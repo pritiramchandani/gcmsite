@@ -106,7 +106,6 @@
     background-color: var(--white);
     border: solid var(--green-dark);
     padding:auto;
-    width: 20%;
     overflow: hidden;
 }
 
