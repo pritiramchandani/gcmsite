@@ -145,7 +145,7 @@ textarea {
 }
 
 .form-btn:hover {
-    background-color: var(--background-color) !important;
+    background-color: var(--green-dark) !important;
     color: var(--white) !important;
     
 }
