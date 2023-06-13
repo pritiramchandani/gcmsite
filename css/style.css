@@ -298,7 +298,7 @@ height: 90px;
 
 /* Digital Marketing */
 
-.section{
+/* .section{
     background-color: var(--background-color);
     padding-top: calc(100px + 6vw);
 }
@@ -313,4 +313,18 @@ height: 90px;
 .text{
     color: var(--white);
     
+} */
+
+/* Content Writing */
+
+.section{
+    background-color: var(--background-color);
+    padding-top: calc(100px + 6vw);
+}
+
+.heading{
+    font-size: calc(1.2rem + 2.5vw);
+    font-weight: 700;
+    color: var(--white);
+    text-align: center;
 }
