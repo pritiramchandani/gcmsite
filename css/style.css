@@ -317,7 +317,7 @@ height: 90px;
 
 /* Content Writing */
 
-.section{
+/* .section{
     background-color: var(--background-color);
     padding-top: calc(100px + 6vw);
 }
@@ -327,4 +327,30 @@ height: 90px;
     font-weight: 700;
     color: var(--white);
     text-align: center;
+} */
+
+
+
+/* Ui/Ux */
+
+.section{
+    background-color: var(--background-color);
+    padding-top: calc(100px + 6vw);
+    padding-bottom: 40px;
 }
+
+
+
+.heading{
+    font-size: calc(1.2rem + 2.5vw);
+    font-weight: 700;
+    color: var(--white);
+    text-align: center;
+} 
+
+
+
+
+
+
+
