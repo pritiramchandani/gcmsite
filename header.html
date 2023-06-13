@@ -23,6 +23,11 @@
     --secondary-text: #cdcdcd;
     --black: #000;
 }
+.nav{
+    background-color: var(--background-color);
+    
+}
+
 div>ul>li>ul {
     display: none;
     position: relative;
@@ -34,7 +39,7 @@ div>ul>li>ul {
 .main-menu:hover ul {
     position: absolute;
     display: block;
-    background-color: var(--green-dark) !important;
+    background-color: var(--background-color) !important;
     list-style: none;   
     padding: 0;
     margin: 0;
@@ -47,7 +52,8 @@ div>ul>li>ul {
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    
+    <nav class="navbar navbar-expand-sm navbar-dark nav">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Logo</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -84,6 +90,7 @@ div>ul>li>ul {
             </div>
         </div>
     </nav>
+
 </body>
 
 </html>
